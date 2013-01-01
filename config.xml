@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id = "org.coderdojo.phonegap"
+        version = "0.0.1"
+        versionCode = "230">
+    <name>CoderDojo Phone gap</name>
+
+    <description>
+        Demo getting started with Phonegap
+    </description>
+
+    <author href="https://github.com/noelking">
+      Noel King
+    </author>
+
+    <feature name="http://api.phonegap.com/1.0/device" />
+
+    <preference name="phonegap-version" value="2.2.0" />
+    <preference name="orientation" value="landscape" />
+    <preference name="target-device" value="universal" />
+    <preference name="fullscreen" value="false" />
+    <preference name="webviewbounce" value="false" />
+    <preference name="prerendered-icon" value="true" />
+    <preference name="exit-on-suspend" value="true" />
+    <preference name="show-splash-screen-spinner" value="false" />
+    <preference name="splash-screen-duration" value="3000" />
+
+    <icon src="img/icons/coder.png"/>
+    <icon src="img/icons/coder.png" gap:platform="android" gap:density="ldpi" />
+    <icon src="img/icons/coder.png" gap:platform="android" gap:density="mdpi" />
+    <icon src="img/icons/coder.png" gap:platform="android" gap:density="hdpi" />
+    <icon src="img/icons/coder.png" gap:platform="android" gap:density="xhdpi" />
+
+</widget>
